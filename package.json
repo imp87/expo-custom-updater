@@ -1,20 +1,40 @@
 {
   "name": "expo-custom-updater",
-  "version": "2.0.0",
-  "description": "A simple way to handle Expo Application Updates",
-  "repository": "https://github.com/umbertoghio/expo-custom-updater.git",
-  "homepage": "https://github.com/umbertoghio/expo-custom-updater",
+  "version": "2.1.0",
+  "description": "A simple way to handle Expo Application Updates - Enhanced Fork with TypeScript support",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": "https://github.com/imp87/expo-custom-updater.git",
+  "homepage": "https://github.com/imp87/expo-custom-updater",
   "author": {
-    "name": "Umberto Ghio",
-    "email": "umberto@ghio.io"
+    "name": "Steven Dautrich",
+    "email": "steven@dautrich.net"
   },
+  "contributors": [
+    {
+      "name": "Umberto Ghio",
+      "email": "umberto@ghio.io"
+    }
+  ],
   "license": "MIT",
   "keywords": [
     "expo",
-    "update"
+    "updates",
+    "ota",
+    "react-native",
+    "expo-updates",
+    "typescript"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "CHANGELOG.md"
   ],
   "devDependencies": {},
   "peerDependencies": {
-    "expo-updates": "*"
+    "expo-updates": "~0.29.0",
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
   }
 }
