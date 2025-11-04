@@ -1,10 +1,13 @@
 {
-  "name": "expo-custom-updater",
-  "version": "2.1.0",
+  "name": "@sdautrich/expo-custom-updater",
+  "version": "2.1.1",
   "description": "A simple way to handle Expo Application Updates - Enhanced Fork with TypeScript support",
   "main": "index.js",
   "types": "index.d.ts",
-  "repository": "https://github.com/imp87/expo-custom-updater.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imp87/expo-custom-updater.git"
+  },
   "homepage": "https://github.com/imp87/expo-custom-updater",
   "author": {
     "name": "Steven Dautrich",
@@ -33,7 +36,7 @@
   ],
   "devDependencies": {},
   "peerDependencies": {
-    "expo-updates": "~0.29.0",
+    "expo-updates": ">=0.29.0",
     "react": ">=16.8.0",
     "react-native": ">=0.60.0"
   }
